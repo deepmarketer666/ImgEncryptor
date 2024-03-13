@@ -13,3 +13,17 @@ Usage:
     Generate a Key: If you haven't generated a key yet, run the program. It will automatically generate a new key and save it to key.txt.
     Encrypt an Image: Run the program in encrypt mode, providing the path to the input image file and the path to save the encrypted image file.
     Decrypt an Image: Run the program in decrypt mode, providing the path to the input encrypted image file and the path to save the decrypted image file.
+    
+Usage Example:
+
+# Encrypt an image
+./imgencryptor
+Enter 'encrypt' or 'decrypt' mode: encrypt
+Enter the path to the input image file: /path/to/input/image.jpg
+Enter the path to save the encrypted image file: /path/to/output/encrypted_image.jpg
+
+# Decrypt an encrypted image
+./imgencryptor
+Enter 'encrypt' or 'decrypt' mode: decrypt
+Enter the path to the input encrypted image file: /path/to/input/encrypted_image.jpg
+Enter the path to save the decrypted image file: /path/to/output/decrypted_image.jpg
