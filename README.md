@@ -16,20 +16,21 @@ Usage:
     
 Usage Example:
 
-# Encrypt an image
-./imgencryptor
+## Encrypt an image
+$./imgencryptor
 
-Enter 'encrypt' or 'decrypt' mode: encrypt
+  Enter 'encrypt' or 'decrypt' mode: encrypt
 
-Enter the path to the input image file: /path/to/input/image.jpg
+  Enter the path to the input image file: /path/to/input/image.jpg
 
-Enter the path to save the encrypted image file: /path/to/output/encrypted_image.jpg
+  Enter the path to save the encrypted image file: /path/to/output/encrypted_image.jpg
 
-# Decrypt an encrypted image
-./imgencryptor
+## Decrypt an encrypted image
+$./imgencryptor
 
-Enter 'encrypt' or 'decrypt' mode: decrypt
+  Enter 'encrypt' or 'decrypt' mode: decrypt
 
-Enter the path to the input encrypted image file: /path/to/input/encrypted_image.jpg
+  Enter the path to the input encrypted image file: /path/to/input/encrypted_image.jpg
 
-Enter the path to save the decrypted image file: /path/to/output/decrypted_image.jpg
+  Enter the path to save the decrypted image file: /path/to/output/decrypted_image.jpg
+             
